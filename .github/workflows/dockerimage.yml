@@ -15,7 +15,7 @@ jobs:
       - uses: mr-smithers-excellent/docker-build-push@v3
         name: Build & push Docker image
         with:
-          image: WPISZ_TWOJE_ID/WPISZ_NAZWĘ_REPO
+          image: marcinkaluzny/marcin-devops
           tag: latest
           registry: docker.io
           dockerfile: Dockerfile
