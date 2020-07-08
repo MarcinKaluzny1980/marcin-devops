@@ -19,5 +19,5 @@ jobs:
           tag: latest
           registry: docker.io
           dockerfile: Dockerfile
-          username: WPISZ_TWOJE_ID
+          username: marcinkaluzny
           password: ${{ secrets.DOCKER_PASS }}
